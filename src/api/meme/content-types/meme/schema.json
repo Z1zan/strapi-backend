@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "image": {
       "type": "media",
@@ -24,10 +25,12 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {}
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "pluginOptions": {}
     }
   }
 }
