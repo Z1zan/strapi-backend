@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_swipers",
+  "info": {
+    "displayName": "swiper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ImageWithText": {
+      "displayName": "ImageWithText",
+      "type": "component",
+      "repeatable": true,
+      "component": "inside-blocks.image-with-text",
+      "required": true
+    },
+    "swiperWithNavigation": {
+      "type": "boolean",
+      "default": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

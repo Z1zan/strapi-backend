@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_inside_blocks_socials",
+  "info": {
+    "displayName": "socials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "unset"
+      ],
+      "default": "unset",
+      "required": true
+    }
+  }
+}

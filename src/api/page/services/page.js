@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * meme service
+ * page service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::meme.meme');
+module.exports = createCoreService('api::page.page');

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * meme controller
+ * page controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::meme.meme');
+module.exports = createCoreController('api::page.page');
