@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Navigation": {
+      "displayName": "Navigation",
+      "type": "component",
+      "repeatable": true,
+      "component": "inside-blocks.navigation"
+    }
+  }
+}

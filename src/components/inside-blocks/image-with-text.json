@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_inside_blocks_image_with_texts",
+  "info": {
+    "displayName": "imageWithText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_inside_blocks_navigations",
+  "info": {
+    "displayName": "navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "unset"
+      ],
+      "required": true,
+      "default": "unset"
+    }
+  }
+}

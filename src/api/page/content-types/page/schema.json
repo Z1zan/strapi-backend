@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "pages",
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page",
+    "displayName": "HomePage",
     "description": ""
   },
   "options": {
@@ -19,8 +19,26 @@
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "blocks.test-block"
+        "blocks.banner",
+        "blocks.swiper",
+        "blocks.text-with-image",
+        "blocks.feedback-with-text"
       ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.footer"
     }
   }
 }

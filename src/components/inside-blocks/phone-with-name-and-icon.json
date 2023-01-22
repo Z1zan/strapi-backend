@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_inside_blocks_phone_with_name_and_icons",
+  "info": {
+    "displayName": "phoneWithNameAndIcon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "textForLink": {
+      "type": "string",
+      "required": true
+    },
+    "Text": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hoverRed": {
+      "type": "boolean",
+      "default": false
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "unset"
+      ],
+      "default": "unset",
+      "required": true
+    }
+  }
+}

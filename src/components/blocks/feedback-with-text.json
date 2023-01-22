@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blocks_feedback_with_texts",
+  "info": {
+    "displayName": "feedbackWithText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "phoneWithName": {
+      "displayName": "phoneWithNameAndIcon",
+      "type": "component",
+      "repeatable": true,
+      "component": "inside-blocks.phone-with-name-and-icon"
+    },
+    "showFeedBackForm": {
+      "type": "boolean",
+      "default": true
+    },
+    "socials": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "inside-blocks.socials"
+    },
+    "socialTitle": {
+      "type": "string"
+    }
+  }
+}
