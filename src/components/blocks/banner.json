@@ -26,6 +26,13 @@
         "videos",
         "audios"
       ]
+    },
+    "blockId": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string",
+      "required": true
     }
   }
 }
