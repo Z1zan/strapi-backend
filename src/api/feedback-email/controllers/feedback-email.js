@@ -28,11 +28,11 @@ module.exports = createCoreController('api::feedback-email.feedback-email', ({st
       await super.create(ctx);
 
       await strapi.plugins['email'].services.email.send({
-        to: 'bebded@gmail.com',
+        to: 'yd_impex@inbox.ru',
         from: 'noreply@yd-impex.su',
         subject: 'Вам была отправлена заявка с сайта yd-impex.su',
         text: `
-          Вам отправили эти данные для связи:
+          Вам отправили данные для обратной связи:
 
           Имя: ${name},
           Почта: ${email},
