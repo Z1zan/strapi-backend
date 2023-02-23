@@ -31,10 +31,13 @@ module.exports = createCoreController('api::feedback-email.feedback-email', ({st
         to: 'bebded@gmail.com',
         from: 'noreply@yd-impex.su',
         subject: 'Вам была отправлена заявка с сайта',
-        text: `Имя: ${name}, почта: ${email}, описание: ${description}`
+        text: `
+        Имя: ${name},
+        Почта: ${email},
+        Описание: ${description}`
       });
 
-      ctx.body = 'The email has been sent and also added to the admin panel like entry';
+      ctx.body = JSON.stringify('The email has been sent and also added to the admin panel like entry');
     } catch(error) {
       ctx.body = error;
     }
