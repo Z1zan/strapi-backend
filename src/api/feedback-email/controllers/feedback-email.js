@@ -30,11 +30,14 @@ module.exports = createCoreController('api::feedback-email.feedback-email', ({st
       await strapi.plugins['email'].services.email.send({
         to: 'bebded@gmail.com',
         from: 'noreply@yd-impex.su',
-        subject: 'Вам была отправлена заявка с сайта',
+        subject: 'Вам была отправлена заявка с сайта yd-impex.su',
         text: `
-        Имя: ${name},
-        Почта: ${email},
-        Описание: ${description}`
+          Вам отправили эти данные для связи:
+
+          Имя: ${name},
+          Почта: ${email},
+          Описание: ${description}
+        `
       });
 
       ctx.body = JSON.stringify('The email has been sent and also added to the admin panel like entry');
