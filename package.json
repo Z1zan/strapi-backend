@@ -12,12 +12,12 @@
   "devDependencies": {},
   "dependencies": {
     "@palmabit/strapi-app-version": "^1.1.0",
-    "@strapi/plugin-i18n": "^4.6.1",
-    "@strapi/plugin-seo": "^1.7.7",
-    "@strapi/plugin-users-permissions": "4.6.1",
-    "@strapi/provider-email-sendgrid": "^4.6.1",
-    "@strapi/strapi": "4.6.1",
-    "better-sqlite3": "7.4.6",
+    "@strapi/plugin-i18n": "^4.6.2",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.6.2",
+    "@strapi/provider-email-sendgrid": "^4.6.2",
+    "@strapi/strapi": "4.6.2",
+    "better-sqlite3": "8.1.0",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-sitemap": "^2.0.9"
   },
